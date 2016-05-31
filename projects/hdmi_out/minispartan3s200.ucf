@@ -1,0 +1,21 @@
+# 32 MHz clock
+NET "I_clk" LOC = "P85"; 
+
+# Leds
+NET "O_leds<2>" LOC = "P16";  
+NET "O_leds<1>" LOC = "P19";  
+NET "O_leds<0>" LOC = "P20"; 
+
+# Switches
+NET "I_switches<0>" LOC = "P98" | PULLUP;
+NET "I_switches<1>" LOC = "P99" | PULLUP;
+
+NET "O_hdmi_p<0>" LOC="P40"  | IOSTANDARD = TMDS_33; 
+NET "O_hdmi_n<0>" LOC="P41"  | IOSTANDARD = TMDS_33; 
+NET "O_hdmi_p<1>" LOC="P43"  | IOSTANDARD = TMDS_33; 
+NET "O_hdmi_n<1>" LOC="P44"  | IOSTANDARD = TMDS_33; 
+NET "O_hdmi_p<2>" LOC="P48"  | IOSTANDARD = TMDS_33; 
+NET "O_hdmi_n<2>" LOC="P49"  | IOSTANDARD = TMDS_33; 
+NET "O_hdmi_p<3>" LOC="P36"  | IOSTANDARD = TMDS_33; 
+NET "O_hdmi_n<3>" LOC="P37"  | IOSTANDARD = TMDS_33; 
+
