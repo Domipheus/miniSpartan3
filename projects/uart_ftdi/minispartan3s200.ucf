@@ -1,0 +1,14 @@
+# 32 MHz clock
+NET "I_clk" LOC = "P85"; 
+
+# Leds
+NET "O_leds<2>" LOC = "P16";  
+NET "O_leds<1>" LOC = "P19";  
+NET "O_leds<0>" LOC = "P20"; 
+
+# Switches
+NET "I_switches<0>" LOC = "P98" | PULLUP;
+NET "I_switches<1>" LOC = "P99" | PULLUP;
+
+NET "I_rx" LOC = "P88";
+NET "O_tx" LOC = "P86";
